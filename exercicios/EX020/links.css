@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+
+.h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.insta {
+    background-color: #5F00BA;
+}
+
+.fb {
+    background-color: #5F00BA;
+}
+
+.git {
+    background-color: #5F00BA;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #FFF2F1;
+}
+
+a:hover {
+    color: #B0FF92;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #5F00BA;
+}
+
+a::after {
+    content: ' [link]';
+    font-weight: normal;
+}

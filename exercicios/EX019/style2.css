@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+.principal {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.secundario {
+    background-color: #A4508B;
+    color: white;
+    text-align: center;
+}
+
+.basico {
+    color: #C191A1;
+}
+
+.Intermediário {
+    color: #C191A1;
+}
+
+.avancado {
+    color: #C191A1;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}

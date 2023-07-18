@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes, ou apenas aumente e diminua seu navegador!</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/eu300.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/eu700.jpg" type="image/jpg">
+        <img src="./imagens/eu1000.jpg" alt="eu em 1000"> <!-- sempre da imagem maior para a menor, e sempre colocar 50px a mais para evitar barra de scroll -->
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio controls preload="metadata" loop> <!-- SEMPRE USAR O METADATA PARA CARREGAR INFO BÁSICA DA MÚSICA OU ÁUDIO -->
+        <source src="./midia/highnoon.mp3" type="audio/mpeg">
+        <p>Infelizmente o áudio não funcionou</p>
+    </audio>
+    <!-- MP3, WAV E OGG para usar com o HTML5 -->
+    <!-- EVITAR ARQUIVO WAV PORQUE É MUITO PESADO, PUXA MUITA BANDA DO HOST -->
+</body>
+</html>
