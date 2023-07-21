@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(./imagens/wallpaper002.jpg);
+}
+
+.wall {
+    display: block;
+    height: 300px;
+    width: 300px;
+}
+
+div.quadrado {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    width: 300px;
+    height: 300px;
+}
+
+div#q1 {
+    background-color: aqua; /* FUNDO SÓLIDO */
+}
+
+div#q2 {
+    background-image: linear-gradient(to bottom, yellow, rgb(71, 235, 71)); /* FUNDO COM GRADIENTE DE 2 CORES, MISTURA DE 2 CORES */
+}
+
+div#q3 {
+    background-image: url(./imagens/pattern003.png); /* FUNDO COM IMAGEM DE FUNDO DENTRO DA DIV */
+}
