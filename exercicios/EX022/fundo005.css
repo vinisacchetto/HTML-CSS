@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+body {
+    border: 1px dashed black;
+    height: 50vh;
+    background-image: url(./imagens/wallpaper005.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+}
