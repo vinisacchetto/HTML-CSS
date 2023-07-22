@@ -1,4 +1,13 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Montserrat:wght@300;700&display=swap');
+
+:root {
+    --fontepadrao: Arial, sans-serif;
+    --fonte1: Montserrat, sans-serif;
+    --fonte2: Caveat, sans-serif;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -17,12 +26,15 @@ header {
 
 header > h1 {
     padding-top: 50px;
-    font-size: 4em;
-    font-variant: small-caps;
+    font-family: var(--fonte1);
+    font-size: 3.2vw;
+    
 }
 
 header > p {
     padding-bottom: 50px;
+    font-family: var(--fonte1);
+    font-weight: 300;
 }
 
 a {
@@ -36,10 +48,12 @@ header a:hover, footer a:hover {
 }
 
 section {
-    line-height: 2em;
+    line-height: 1.5em;
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 10vh;
+    font-family: var(--fonte2);
+    font-size: 30px;
 }
 
 section.normal {
@@ -50,13 +64,11 @@ section.normal {
 section.imagem {
     background-color: rgb(27, 24, 24);
     background-image: url('../imagens/background001.jpg');
-    background-position: center;
-    background-attachment: scroll;
     color: white;
 }
 
 section.imagem > p {
-    width: 200px;
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.199);
 }
 
@@ -64,7 +76,7 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    font-weight: bolder;
+    font-family: var(--fontepadrao);
 }
 
 footer a {
