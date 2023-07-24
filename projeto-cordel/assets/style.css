@@ -56,20 +56,28 @@ section {
     font-size: 30px;
 }
 
+section > p {
+    padding-bottom: 1.5em;
+}
+
 section.normal {
     background-color: white;
     color: black;
 }
 
-section.imagem {
-    background-color: rgb(27, 24, 24);
+section.imagem > p {
+    display: inline-block;
+    background-color: rgba(27, 25, 25, 0.199);
+}
+
+#img01 {
     background-image: url('../imagens/background001.jpg');
     color: white;
 }
 
-section.imagem > p {
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.199);
+#img02 {
+    background-image: url('../imagens/background002.jpg');
+    color: white;
 }
 
 footer {
