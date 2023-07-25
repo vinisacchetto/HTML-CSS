@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+    position: relative;
+}
+
+caption {
+    background-color: lightgray;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: gray;
+}
+
+thead, tfoot {
+    background-color: gray;
+    color: white;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: white;
+    font-weight: bold;
+}
+
+tbody > tr:nth-child(even) {
+    background-color: lightgray;
+    text-decoration: underline;
+}
+
+td.num {
+    text-align: right;
+}
+
+.population {
+    width: 89px;
+}
