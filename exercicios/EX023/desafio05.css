@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: gray;
+    color: white;
+}
+
+#human, #exatas {
+    background-color: white;
+    color: black;
+}
+
+.medias {
+    background-color: gray;
+    color: white;
+}
