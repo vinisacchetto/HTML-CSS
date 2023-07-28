@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form example</title>
+    <style>
+        fieldset.field1 {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>form example</h1>
+    <form action="cadastro.php" method="post">
+        <fieldset class="field1">
+            <legend>Sexo: </legend>
+            <input type="radio" name="sex" id="mas"> <label for="mas">Masculino</label> <br>
+            <input type="radio" name="sex" id="fem"> <label for="fem">Feminino</label>
+        </fieldset>
+        <fieldset class="field2">
+            <legend>Filmes</legend>
+            <input type="checkbox" id="alien"><label for="alien"> Alien</label><br>
+            <input type="checkbox" id="prometheus"> <label for="prometheus">Prometheus</label><br>
+            <input type="checkbox" id="nbd"> <label for="nbd">Never Back Down</label><br>
+            <input type="checkbox" id="paul"> <label for="paul">Paul o Alien fugitivo</label><br>
+            <input type="checkbox" id="ab"> <label for="ab">As Branquelas</label><br>
+        </fieldset>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+    </form>
+</body>
+</html>
